@@ -8,14 +8,15 @@ body {
     display: flex;
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 
-.top_half {
+.half_width {
     width: 50%;
     padding-left: 7%;
 }
 
-.top_half h1 {
+.half_width h1 {
     font-size: 50px;
 }
 
@@ -23,7 +24,7 @@ body {
     color: orange;
 }
 
-.linked_in_button {
+.link_button {
     text-decoration: none;
     background-image: linear-gradient(to right, #FF9C77, #FF664A);
     padding: 10px 40px;
@@ -32,11 +33,29 @@ body {
     font-weight: 700;
     transition: 2s all ease-in-out;
 }
-.linked_in_button:hover {
+
+.link_button:hover {
     background-image: linear-gradient(to right, #FF664A, #FF9C77);
 
 }
 
-.top_half img {
+.half_width img {
     width: 80%;
+}
+
+/*the goal area*/
+.the_goal {
+    display: flex;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.goal_right_half {
+    padding-right: 10%;
+}
+
+.goal_right_half h2 {
+    font-size: 40px;
+    font-weight: 700;
 }
