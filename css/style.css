@@ -59,3 +59,44 @@ body {
     font-size: 40px;
     font-weight: 700;
 }
+/*Goal Section Style End*/
+.experience{
+    margin-bottom: 150px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+.experience h1{
+    font-size:40px;
+    margin-left:20px;
+}
+.experience_inner{
+    display: flex;
+}
+.experience_type{
+    width: 45%;
+    padding:5%;
+    margin-left:3%;
+    margin-right:2%;
+    box-shadow: 10px 10px 40px #6e6e6e;
+}
+
+.experience_type h2{
+    font-size:30px;
+}
+.experience_type h3{
+    color:orange;
+}
+.full_stack{
+    border-left:8px solid #FF6347;
+}
+
+.pucka{
+    border-left:8px solid #0000FF;
+}
+footer>p{
+    text-align: center;
+}
+.footer_divider{
+    color:#6e6e6e;
+}
